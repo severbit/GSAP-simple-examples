@@ -1,22 +1,14 @@
-# React + Vite
+# 🎬 Простые и наглядные примеры работы с GSAP  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Что такое **GSAP**?  
+**GSAP (GreenSock Animation Platform)** — это мощная библиотека для создания плавных, производительных и креативных анимаций в вебе. С её помощью можно анимировать **HTML, SVG, Canvas, WebGL** и даже обычные объекты JavaScript!  
 
-Currently, two official plugins are available:
+## 🎯 Цель этого проекта  
+Этот проект создан для быстрого и лёгкого погружения в мир **GSAP**. Здесь ты найдёшь **простые и понятные примеры**, которые помогут освоить основы анимации и начать использовать её в своих проектах.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-# GSAP Simple Examples
-
-Простой проект с примерами анимаций, созданный с помощью GSAP (GreenSock Animation Platform).
+📌 **Минимум теории — максимум практики!** Начни анимировать уже сегодня! 🚀
 
 ## Структура проекта
-
 ```
 gsapAnimations/
 ├── src/
