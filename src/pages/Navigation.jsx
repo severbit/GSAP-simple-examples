@@ -20,6 +20,9 @@ const Navigation = () => {
                 <li className='navbar_item'>
                     <Link to='/timeline'>Timeline</Link>
                 </li>
+                <li className='navbar_item'>
+                    <Link to='/scrolltrigger'>ScrollTrigger</Link>
+                </li>
         </ul>
     </div>
   )

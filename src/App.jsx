@@ -5,6 +5,7 @@ import FromTo from './pages/FromTo';
 import Navigation from './pages/Navigation';
 import Default from './pages/Default';
 import Timeline from './pages/Timeline';
+import ScrollTrigger from './pages/ScrollTrigger';
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
         <Route path='/fromto' element={<FromTo/>} />
         <Route path='/default' element={<Default/>} />
         <Route path='/timeline' element={<Timeline/>} />
+        <Route path='/scrolltrigger' element={<ScrollTrigger/>} />
       </Routes>
     </BrowserRouter>
   )

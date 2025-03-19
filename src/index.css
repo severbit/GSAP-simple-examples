@@ -115,4 +115,98 @@ button:focus-visible {
 
 h1{
   background-color: #535bf2;
+  padding: .5vw;
+}
+
+.scrollLayout{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.scrollLayout > div{
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+.scrollLayout h2{
+  align-self: center;
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.bento-item {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bento-item:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.bento-item.featured {
+  grid-column: span 2;
+  grid-row: span 2;
+  background: rgba(83, 91, 242, 0.1);
+}
+
+.bento-item h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #535bf2;
+}
+
+.bento-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.bento-item p {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+}
+
+.bento-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bento-item ul li {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.bento-item ul li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #535bf2;
+}
+
+@media (max-width: 768px) {
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .bento-item.featured {
+    grid-column: auto;
+    grid-row: auto;
+  }
 }
